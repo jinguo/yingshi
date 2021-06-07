@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A6159773777736" security="false" version="0.0.1">
+    <name>臻彩影视</name>
+    <description>Example For APICloud.</description>
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">Developer</author>
+    <content src="index.html"/>
+    <preference name="pageBounce" value="false"/>
+    <preference name="appCertificateVerify" value="false"/>
+    <preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+    <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+    <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+    <preference name="hScrollBarEnabled" value="false"/>
+    <preference name="vScrollBarEnabled" value="false"/>
+    <preference name="autoLaunch" value="true"/>
+    <preference name="fullScreen" value="false"/>
+    <preference name="autoUpdate" value="true"/>
+    <preference name="smartUpdate" value="true"/>
+    <preference name="debug" value="false"/>
+    <preference name="customRefreshHeader" value="UIPullRefreshFlash"/>
+    <preference name="statusBarAppearance" value="true"/>
+    <permission name="readPhoneState"/>
+    <permission name="camera"/>
+    <permission name="record"/>
+    <permission name="location"/>
+    <permission name="fileSystem"/>
+    <permission name="internet"/>
+    <permission name="bootCompleted"/>
+    <permission name="hardware"/>
+    <preference name="forbiddenSchemes"
+                value="^weixin://,^alipays://,^alipay://,^mqq://,^wechat://,^http://,^https://,^mqqwpaopenid://,^mqqwpa://,^mqqapi://,^mqqbrowser://,^browser://,^mttbrowser://,^﻿webBrowser//"/>
+    <feature name="wx">
+        <param name="urlScheme" value="wxa6567137b42c8e69"/>
+        <param name="apiKey" value="wxa6567137b42c8e69"/>
+        <param name="apiSecret" value="5a47f831cdbeb15a89a7926bdeed87c9"/>
+    </feature>
+    <!--投屏模块官方售价999元 有需要的联系我微信YC202186 低价渠道300-350-->
+    <!--投屏模块官方售价999元 有需要的联系我微信YC202186 低价渠道300-350-->
+    <!--投屏模块官方售价999元 有需要的联系我微信YC202186 低价渠道300-350-->
+   <!-- <feature name="leCast">
+        <param name="lecastKey" value="15232"/>
+        <param name="lecastSecret" value="a28643c89a0039ae4e101c37c2ad3584"/>
+    </feature>   -->
+</widget>
