@@ -91,7 +91,7 @@
         }
     </style>
     <script type="text/javascript">
-        localStorage.setItem('api_url', "http://www.zcplay.com");
+        localStorage.setItem('api_url', "http://app.zcplay.com");
         localStorage.setItem('mike_key', "A@2545sKsjjj9@#4547@@@kkkksss23W");
     </script>
 </head>
@@ -172,7 +172,7 @@
 
     <script type="text/x-dot-template" id="hongbaotpl">
 
-        <img src="http://www.zcplay.com/{{=it.picurl}}" style="position: absolute;width: 1.5rem;top: 0.3rem;right: 0.5rem;" onclick="openVipurl('{{=it.linkurl}}')">{{=it.name}}
+        <img src="http://app.zcplay.com/{{=it.picurl}}" style="position: absolute;width: 1.5rem;top: 0.3rem;right: 0.5rem;" onclick="openVipurl('{{=it.linkurl}}')">{{=it.name}}
     </script>
 
     <script type="text/javascript" src="script/api.js"></script>
@@ -394,7 +394,7 @@
 
 
                                         api.ajax({
-                                            url: 'http://www.zcplay.com/AppHello.html',
+                                            url: 'http://app.zcplay.com/AppHello.html',
                                             method: 'get'
                                         },function(ret, err){
                                             if (ret) {
